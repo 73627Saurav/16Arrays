@@ -9,6 +9,7 @@ console.log(marks_class_12[5]) // Not Present
 console.log(marks_class_12[6]) // Will be undefined because index 6 does not exist
 console.log("The length of marks_class_12 is", marks_class_12.length) // The length of marks_class_12 is 6
 marks_class_12[6] = 89 // Adding a new value to the array
+console.log("The length of marks_class_12 is", marks_class_12.length) // The length of marks_class_12 is 7
 marks_class_12[0] = 96 // Changing the value of an array
 console.log(marks_class_12) // [ 96, 82, 63, 84, false, 'Not Present', 89 ]
 console.log(typeof marks_class_12) // object
