@@ -13,3 +13,6 @@ console.log("The length of marks_class_12 is", marks_class_12.length) // The len
 marks_class_12[0] = 96 // Changing the value of an array
 console.log(marks_class_12) // [ 96, 82, 63, 84, false, 'Not Present', 89 ]
 console.log(typeof marks_class_12) // object
+
+// arrays are mutable
+// arrays can be changed
